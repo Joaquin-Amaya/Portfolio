@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+    font-size: 16px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-titles{
+    list-style: none;
+    text-decoration: none;
+    transition: ease .1s;
+}
+
+.header-titles:hover{
+    font-size: 20px;
+    color: rgb(118, 55, 177);
+}

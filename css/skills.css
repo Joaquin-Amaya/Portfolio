@@ -1,0 +1,46 @@
+/*Slider skills*/
+
+.skills-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.slider{
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(150px * 14);
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slide{
+    width: 150px;
+    margin: 20px 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll {
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-150px * 7));
+        transform: translateX(calc(-150px * 7));
+    }
+}

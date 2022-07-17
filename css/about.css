@@ -1,0 +1,34 @@
+
+.about-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text{
+    color: #ffffff;
+    font-size: 20px;
+    width: 38%;
+}
+
+.about-cv{
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.about-cv:hover{
+    background-color: rgb(118, 55, 177);
+    color: white;
+    
+}
