@@ -1,5 +1,8 @@
 @media screen and (max-width: 685px){
-    body{
-        
+    .home-title {
+        font-size: 2rem;
+    }
+    .home-title:hover{
+        font-size: 3rem;
     }
 }
