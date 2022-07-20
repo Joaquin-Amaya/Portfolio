@@ -1,4 +1,9 @@
 @media screen and (max-width: 900px){
+    .home{
+        height:100vw;
+        margin-top:20rem;
+    }
+
     .home-title {
         font-size: 2rem;
         flex-wrap:wrap;
