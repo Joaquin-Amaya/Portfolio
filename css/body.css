@@ -6,7 +6,22 @@
 body{
     font-family: 'Koulen', cursive;
     background:rgb(98, 156, 211);
-    margin: 0;
+    background-size: 100%;
+    animation:  fondoanimado 6s infinite;
+}
+
+@keyframes fondoanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 /*Barra scroll*/
