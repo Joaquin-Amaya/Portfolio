@@ -1,4 +1,4 @@
-@media screen and (min-width: 685px){
+@media screen and (max-width: 685px){
     .home-title {
         font-size: 2rem;
         flex-wrap:wrap;
@@ -39,6 +39,27 @@
         -webkit-transform: translateX(calc(-100px * 7));
         transform: translateX(calc(-100px * 7));
     }
+    }
+
+    .card-1{
+        flex-direction: column;
+        height:auto;
+    }
+
+    .card-1 .contenido{
+        width:80%;
+    }
+
+    .card-1 img{
+        width:100%;
+        height:auto;
+        box-shadow:none;
+    }
+
+    .contact-card{
+        width:max-content;
+        height:max-content;
+        margin:0px 50px;
     }
 }
     
