@@ -1,6 +1,4 @@
-.home{
-    height: 100vh;
-}
+
 
 .home-title{
     display: flex;
@@ -11,12 +9,6 @@
     font-family: 'Alfa Slab One', cursive;
     color: white;
     text-transform: uppercase;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    transition: ease .5s;
 }
 
 .home-title:hover{
